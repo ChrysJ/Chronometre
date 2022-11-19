@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chronometre - android</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="phone">
+        <div class="screenphone">
+            <div class="screenphone-top">
+                <p id="display-hours"></p>
+            </div>
+            <h1>Chronometre</h1>
+            <div class="timer">
+                <div>
+                    <p id="display-mins">00</p>
+                    <p id="display-seconds">00</p>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="reset"><button id="btn-reset"><i class="fa-solid fa-arrow-rotate-left"></i></button></div>
+                <div id="start">
+                    <button id="btn-start">
+                        <div class="arrow"></div>
+                    </button>
+                    <button class="btn-timeout">
+                        <div class="stop"></div>
+                        <div class="stop"></div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
